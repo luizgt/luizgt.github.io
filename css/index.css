@@ -1,0 +1,17 @@
+.header > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(32, 31, 31);
+    font-size: 25px;
+}
+
+.links{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.links > a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+}
