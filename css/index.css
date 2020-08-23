@@ -1,32 +1,37 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px
 }
 
 .div-fotoperfil > h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 .links{
-    display: flex;
+    display: flex
     /* flex-direction: column; */
 }
 
 .links > a{
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 5px;
 }
 
-.img-planetas{
-    width: 100%;
-    height: auto;
-}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
 
 .img-perfil{
-    width: 10%;
+    width: 13%;
     height: auto;
     border-radius: 100px;
 }
@@ -35,13 +40,24 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    background-color: rgb(48, 48, 48);
 }
 
-.div-planetas{
-    position: absolute;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
+.links > a {
+    color: white;
+}
+
+#linkedin:hover{
+    color: rgb(1, 140, 182)
+}
+#insta:hover{
+    color: rgb(255, 0, 212)
+}
+#face:hover{
+    color: rgb(0, 54, 204)
+}
+#mail:hover{
+    color: rgb(255, 0, 0)
 }
 
 .div-fotoperfil{
@@ -54,3 +70,26 @@
     z-index: 10;
     position: relative;
 }
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.div-secao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-secao > h2{
+    color: rgb(35, 35, 35);
+    margin-bottom: 10px;
+}
+
+.div-secao > p{
+    margin-bottom: 10px;
+}
+
